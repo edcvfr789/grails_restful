@@ -10,7 +10,7 @@ class EmailServiceTests {
 
     @Before
     void setUp() {
-        //person = new Person(username:"xuwang", firstName:"Xu", lastName:"Wang", email:"xuwang@gmail.com")
+        //person = new Person(username:"mars_li", firstName:"Mars", lastName:"Li", email:"mars_li@gmail.com")
 		//person.save(flush:true, failOnError:true)
     }
 
@@ -22,6 +22,6 @@ class EmailServiceTests {
     @Test
     void testGetEmail() {
         assert emailService != null, "EmailService is null!"
-		assert emailService.getEmail("xuwang")?.address == "xuwang@gmail.com"
+		assert emailService.getEmail("mars_li")?.address == "mars_li@gmail.com"
     }
 }

@@ -11,7 +11,7 @@ class BootStrap {
 			return returnArray
 			}
 		
-		(new Person(username:"xuwang", firstName:"Xu", lastName:"Wang", email:"xuwang@gmail.com")).save(flush:true, failOnError:true)
+		(new Person(username:"marsli", firstName:"Mars", lastName:"Li", email:"marsli@gmail.com")).save(flush:true, failOnError:true)
     }
     def destroy = {
     }
