@@ -1,3 +1,11 @@
+
+Usage
+=====
+
+Install grails
+
+'gvm use grails 2.1.1'
+
 This is a simple grails demo app with json-rest-api
 
 Gets a list of person objects 
